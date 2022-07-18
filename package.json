@@ -1,0 +1,25 @@
+{
+  "name": "nodeloginpage",
+  "version": "1.0.0",
+  "description": "Node Login Page example",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "login"
+  ],
+  "author": "Julio Daniel",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
